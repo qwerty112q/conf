@@ -29,6 +29,7 @@
             enable = true;
             registers = "unnamedplus";
           };
+          filetree.neo-tree.enable = true;
           binds.whichKey.enable = true;
           statusline.lualine.enable = true;
           telescope.enable = true;
