@@ -12,10 +12,6 @@
       tree
       bat
       bitwarden-desktop
-      (discord-canary.override {
-        withOpenASAR = true;
-        withVencord = true;
-      })
       mission-center
       localsend
       fastfetch
