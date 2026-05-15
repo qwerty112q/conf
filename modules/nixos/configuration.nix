@@ -103,7 +103,10 @@
       micro
       vim
     ];
-    nixpkgs.config.allowUnfree = true;
+    nixpkgs.config = {
+      allowUnfree = true;
+      permittedInsecurePackages = ["openssl-1.1.1w"];
+    };
     system.stateVersion = "25.11";
     nix = {
       channel.enable = false;
