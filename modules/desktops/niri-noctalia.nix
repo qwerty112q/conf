@@ -19,11 +19,10 @@
     services.gvfs.enable = true;
 
     # --- ADD THIS FOR QT CONFIGURATION ---
-    qt = {
-      enable = true;
-      platformTheme.name = "kvantum";
-      style.name = "kvantum";
-    };
+
+    #   platformTheme.name = "kvantum";
+    #   style.name = "kvantum";
+    # };
 
     environment.systemPackages = with pkgs; [
       xwayland-satellite
