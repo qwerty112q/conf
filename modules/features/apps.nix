@@ -15,7 +15,7 @@
       mission-center
       localsend
       fastfetch
-      jujutsu
+      brave
     ];
   };
 }
