@@ -29,8 +29,6 @@
       xwayland-satellite
       wl-clipboard
       noctalia-shell
-      nautilus
-      kitty
 
       kdePackages.dolphin
       kdePackages.konsole
