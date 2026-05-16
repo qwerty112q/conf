@@ -11,11 +11,11 @@
       duf
       tree
       bat
-      bitwarden-desktop
       mission-center
       localsend
       fastfetch
       brave
     ];
+    programs.chromium.enable = true;
   };
 }
