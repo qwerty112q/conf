@@ -18,8 +18,7 @@
       nvf
       apps
       # waydroid
-      # niri-dms
-      niri-noctalia
+      plasma
     ];
     boot = {
       loader = {
