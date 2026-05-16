@@ -22,6 +22,7 @@
       wl-clipboard
       noctalia-shell
 
+      nautilus
       kitty
     ];
   };
