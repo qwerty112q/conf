@@ -16,8 +16,8 @@
       };
       packages = [
         "com.github.tchx84.Flatseal"
-        "org.keepassxc.KeePassXC"
         "it.mijorus.gearlever"
+        "org.keepassxc.KeePassXC"
       ];
     };
   };

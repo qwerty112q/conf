@@ -17,6 +17,7 @@
       ssh
       nvf
       apps
+      syncthing
       # waydroid
       plasma
     ];
