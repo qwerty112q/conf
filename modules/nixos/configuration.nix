@@ -18,6 +18,7 @@
       nvf
       apps
       syncthing
+      distrobox
       # waydroid
       plasma
     ];
