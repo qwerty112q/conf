@@ -100,18 +100,6 @@
         "gamemode"
         "podman"
       ];
-      subGidRanges = [
-        {
-          count = 65536;
-          startGid = 1000;
-        }
-      ];
-      subUidRanges = [
-        {
-          count = 65536;
-          startUid = 1000;
-        }
-      ];
     };
     environment.systemPackages = with pkgs; [
       micro
