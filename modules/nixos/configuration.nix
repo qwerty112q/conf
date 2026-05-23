@@ -93,12 +93,25 @@
     users.users.sock = {
       shell = pkgs.fish;
       isNormalUser = true;
+      packages = with pkgs; [];
       extraGroups = [
         "wheel"
         "networkmanager"
         "gamemode"
+        "podman"
       ];
-      packages = with pkgs; [];
+      subGidRanges = [
+        {
+          count = 65536;
+          startGid = 1000;
+        }
+      ];
+      subUidRanges = [
+        {
+          count = 65536;
+          startUid = 1000;
+        }
+      ];
     };
     environment.systemPackages = with pkgs; [
       micro
