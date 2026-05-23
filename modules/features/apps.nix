@@ -12,6 +12,7 @@
       tree
       bat
       mission-center
+      distrobox
       localsend
       fastfetch
       brave
