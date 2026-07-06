@@ -15,7 +15,6 @@
       gaming
       fonts
       ssh
-      nvf
       apps
       syncthing
       distrobox
@@ -76,20 +75,9 @@
         extraArgs = "--keep 5 --keep-since 3d";
       };
     };
-    programs.git = {
-      enable = true;
-      config = {
-        user = {
-          name = "buh112q";
-          email = "lnwpoom.zaa123@gmail.com";
-        };
-      };
-    };
+    programs.git.enable = true;
     programs.starship.enable = true;
-    programs.fish = {
-      enable = true;
-      useBabelfish = true;
-    };
+    programs.fish.enable = true;
     users.users.sock = {
       shell = pkgs.fish;
       isNormalUser = true;
@@ -102,7 +90,6 @@
       ];
     };
     environment.systemPackages = with pkgs; [
-      micro
       vim
     ];
     nixpkgs.config = {
